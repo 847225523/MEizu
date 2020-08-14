@@ -40,10 +40,12 @@ task('script', async ()=>{
 
 // 处理html
 task('html', async ()=>{
-  src(['./rev/**/*.json','./pages/*.html'])
-  .pipe(load.revCollector({replaceReved:true}))
-  .pipe(load.minifyHtml())
-  .pipe(dest('./dist/pages'))
+  setTimeout(()=>{
+    src(['./rev/**/*.json','./pages/*.html'])
+    .pipe(load.revCollector({replaceReved:true}))
+    .pipe(load.minifyHtml())
+    .pipe(dest('./dist/pages'))
+  },1000);
 })
 
 // 监听文件变化
