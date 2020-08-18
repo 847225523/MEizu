@@ -199,3 +199,70 @@ $('.move').mouseleave(function(){
     $('.list li a').css('color','#fff');
     $('.moveContent').html('');
 })
+$('.showSubscribe').mouseenter(function(){
+  $('.subscribe').css('display','block');
+})
+$('.footerContent').mouseleave(function(){
+  $('.subscribe').css('display','none');
+})
+$('.showWechat').mouseenter(function(){
+  $('.weChat').css('display','block');
+})
+$('.footerContent').mouseleave(function(){
+  $('.weChat').css('display','none');
+})
+$.ajax({
+  url:'../data/index.json',
+  type:'get',
+  dataType:'json',
+  success:function(json){
+      var json1=json.newPhone;
+      var json2=json.phones;
+      var json3=json.society;
+      $.each(json1,function(index,item){
+        var newDom=`<div >
+        <h5>${item.sign}</h5>
+        <h3>${item.title}</h3>
+        <p>${item.desc}</p>
+        <span><i>￥</i><em>${item.price}</em></span>
+        <img src="${item.img}">
+      </div>`
+      $('.new').append(newDom);
+      });
+     
+      $.each(json2,function(index,item){
+        
+        var newphoneDom=`<li>
+        <img src="${item.img}">
+        <h3>${item.title}</h3>
+        <p>${item.desc}</p>
+        <span><i>￥</i><em>${item.price}</em></span>
+      </li>`
+      
+      $('.detail').append(newphoneDom);
+      });
+      $.each(json3,function(index,item){
+        var soDom=`<div>
+        <img src="${item.img1}">
+        <p>
+          <img src="${item.img2}">
+          <span class="community-one">
+           ${item.name}
+          </span>
+        </p>
+        <i>${item.words}</i>
+        <span  class="community-two">${item.type}</span>
+      </div>`
+      $('.community').append(soDom);
+      })
+    }
+      })
+
+//鼠标移入登录注册以动画样式显示
+$('.login').mouseenter(function(){
+  $(this).find('.register').stop(true).slideDown(300);
+})
+$('.login').mouseleave(function(){
+  $(this).find('.register').stop(true).slideUp(100);
+})
+  

@@ -1,31 +1,33 @@
 {
-"phone":[
+"newPhone":[
     {
         "title":"魅族 17",
         "desc":"高通骁龙 865 + UFS 3.1 高速闪存  |  6400W 全场景影像系统",
         "price":"3699",
-         "img":"./images/meizu17.png",
+         "img":"../image/meizu17.png",
          "sign":"新品"
     },
     {
         "title":"魅族 17 Pro",
         "desc":"高通骁龙 865 + UFS 3.1 + LPDDR5 | 6400W 全场景 AR 专业影像系统",
         "price":"4299",
-         "img":"./images/meizu17pro.png",
+         "img":"../image/meizu17pro.png",
          "sign":"新品"
-    },
-    {
+    }
+  ],
+   "phones":[
+     {
         "title":"魅族 17 航母限定版",
         "desc":"以梦为舰 热爱起航",
         "price":"4299",
-         "img":"./images/meizu17_2.png",
+         "img":"../image/meizu17_2.png",
          "sign":"新品"
     },
     {
         "title":"魅族 17 Pro 晓芳窑艺术典藏版",
         "desc":"这艺术 科技极了",
         "price":"9999",
-         "img":"./images/meizu17diancang.png",
+         "img":"../image/meizu17diancang.png",
          "sign":"新品"
 
     },
@@ -33,127 +35,73 @@
         "title":"魅族 16T",
         "desc":"6.5英寸极边全面屏 | 骁龙855旗舰处理器",
         "price":"1999",
-         "img":"./images/meizu16T.png",
+         "img":"../image/meizu16T.png",
          "sign":"热卖"
     },
     {
         "title":"魅族 16s",
         "desc":"高通骁龙855 | 4800W光学防抖 ",
         "price":"2399",
-         "img":"./images/meizu16s.png",
+         "img":"../image/meizu16s.png",
          "sign":""
     }
-
   ],
-  "ear":[
+  "society":[
     {
-        "img":"./images/ear1.jpg",
-        "desc":"Hi-Res 认证高解析音质 | Type-C数字接口",
-       "title":"魅族 EP3C 耳机",
-       "price":"99",
-       "class1":"img-big",
-       "class2":"goods-info-firstcol goods-info",
-       "sign":"热卖" 
-      },
-      {
-        "img":"./images/ear2.png",
-       "title":"魅族 POP2 真无线蓝牙耳机",
-       "desc":"蓝牙5.0 | 单次8H续航 | 石墨烯振膜 | 双耳通话",
-       "class1":"img-small",
-       "class2":"goods-info",
-       "price":"299",
-       "sign":"热卖" 
-      },
-      {
-        "img":"./images/ear3.png",
-       "title":"魅族 HIFI 解码耳放",
-       "desc":"高性能DAC芯片|纯净HiFi音质|600Ω高阻抗推力",
-       "class1":"img-small",
-       "class2":"goods-info",
-       "price":"119",
-       "sign":"热卖"   
-      },
-      {
-        "img":"./images/ear4.png",
-       "title":"魅族 EP63NC 无线降噪耳机",
-       "desc":"AMS 芯片智能降噪|Qualcomm apt-X™ 高清音",
-       "class1":"img-small",
-       "class2":"goods-info",
-       "price":"299 ",
-       "sign":"热卖" 
-      },
-      {
-        "img":"./images/ear5.jpg",
-        "desc":"超强二级运放 | Hi-Res 认证高解析音质",
-        "class1":"img-big",
-        "class2":"goods-info-firstcol goods-info",
-       "title":"魅族 HiFi 解码耳放 PRO",
-       "price":"269" ,
-       "sign":"" 
-      },
-      {
-        "img":"./images/ear5.png",
-       "title":"魅族 HD60 头戴式蓝牙耳机",
-       "desc":"40mm生物振膜  | Type-C充电 | 触控操作 ",
-       "class1":"img-small",
-       "class2":"goods-info",
-       "price":"429",
-       "sign":""
-      },
-      {
-        "img":"./images/ear6.png",
-       "title":"魅族 EP52 Lite 蓝牙耳机",
-       "desc":"生物纤维振膜|8小时续航|IPX5级防水|轻巧亲肤",
-       "class1":"img-small",
-       "class2":"goods-info",
-       "price":"109",
-       "sign":""  
-      },
-      {
-        "img":"./images/ear7.png",
-       "title":"魅族 EP2X 耳机",
-       "desc":"一体式线控 | 3.5mm接口 |流线设计",
-       "class1":"img-small",
-       "class2":"goods-info",
-       "price":"69" ,
-       "sign":""
-      },
-      {
-        "img":"./images/ear8.jpg",
-       "title":"MEIZU UR 高端定制耳机  预约",
-       "desc":"【预约专用】私人定制，为你而声",
-       "class1":"img-big",
-       "class2":"goods-info-firstcol goods-info",
-       "price":"200",
-       "sign":""
-      },
-      {
-        "img":"./images/ear9.png",
-        "desc":"三键一体式线控 | 3.5mm接口 ",
-        "class1":"img-small",
-       "class2":"goods-info",
-       "title":"魅族 EP21耳机",
-       "price":"39",
-       "sign":""
-      },
-      {
-        "img":"./images/ear10.png",
-       "title":"魅族 LIVE 四单元动铁耳机",
-       "desc":"Knowles四动铁 双通道导音系统 现场级音乐表现",
-       "class1":"img-small",
-       "class2":"goods-info",
-       "price":"899",
-       "sign":""
-      },
-      {
-        "img":"./images/ear11.png",
-       "title":"魅族 HALO 激光蓝牙耳机",
-       "class1":"img-small",
-       "class2":"goods-info",
-       "desc":"炫酷夜跑神器 随性张扬",
-       "price":"299",
-       "sign":""
-      }
-     
+      "img1":"https://fms.res.meizu.com/dms/2020/05/28/fda8c8cb-6dd5-4fca-8c64-fdc6a07123a8.png",
+      "img2":"https://img-res.mzres.com/img/download/uc/13/28/97/03/00/13289703/w100h100?t=1597450128",
+      "name":"小雨先森08",
+      "words":"魅族 17Pro 定白率先上手体验，第一感觉就是，这很魅族",
+      "type":"魅族17pro"
+    },
+    {
+      "img1":"https://fms.res.meizu.com/dms/2020/05/28/42b2c0bf-f5b0-4f0f-9023-3df3d10a0662.png",
+      "img2":"https://img-res.mzres.com/img/download/uc/58/35/18/00/00/583518/w100h100?t=1597450128",
+      "name":"grayfox77",
+      "words":"不只是颜值出众，可谓是秀外慧中。",
+      "type":"魅族17pro"
+    },
+    {
+      "img1":"https://fms.res.meizu.com/dms/2020/05/28/40f14166-72e1-40c3-a816-1b44a05ca270.png",
+      "img2":"https://img-res.mzres.com/img/download/uc/14/52/97/69/00/14529769/w100h100?t=1597450128",
+      "name":"明日之新",
+      "words":"现在大家对手机拍照质量的需求越来越高，最受关注的就是焦段与画质。",
+      "type":"魅族17pro摄影"
+    },
+    {
+      "img1":"https://fms.res.meizu.com/dms/2020/05/28/97540b0b-9fb2-45e1-bbec-2a250c64a696.png",
+      "img2":"https://img-res.mzres.com/img/download/uc/96/59/85/50/00/9659855/w100h100?t=1597450128",
+      "name":"一叶一会",
+      "words":"魅族 17 Pro 6400W 全场景 AR 专业影像系统体验。",
+      "type":"魅族17pro摄影作品"
+    },
+    {
+      "img1":"https://fms.res.meizu.com/dms/2020/05/28/444b1da7-072a-4a3a-9fc5-8bafb630ccfd.png",
+      "img2":"https://img-res.mzres.com/img/download/uc/14/52/97/69/00/14529769/w100h100?t=1597450128",
+      "name":"明日之新",
+      "words":"魅族 17 微距摄影，灵动绚烂。",
+      "type":"魅族17"
+    },
+    {
+      "img1":"https://fms.res.meizu.com/dms/2020/05/28/d5ad3a0d-ead8-4c65-a517-84de313c1b4e.png",
+      "img2":"https://img-res.mzres.com/img/download/uc/11/90/25/05/60/119025056/w100h100?t=1597450128",
+      "name":"我是魅之神",
+      "words":"多一点耐心，多一点发现，多一点想象，去留意身边风景。",
+      "type":"魅族17pro摄影作品"
+    },
+    {
+      "img1":"https://fms.res.meizu.com/dms/2020/05/28/ab66ca73-8431-4ba4-9189-e4708f88eda3.png",
+      "img2":"https://img-res.mzres.com/img/download/uc/12/46/00/30/00/1246003/w100h100?t=1597450128",
+      "name":"frankm8fans",
+      "words":"魅族 17 Pro手持超级夜景实拍，镜头里的夜色如此美妙。",
+      "type":"魅族17pro"
+    },
+    {
+      "img1":"https://fms.res.meizu.com/dms/2020/05/28/17ce9018-4516-494c-a112-cd0529249396.png",
+      "img2":"https://img-res.mzres.com/img/download/uc/12/46/00/30/00/1246003/w100h100?t=1597450128",
+      "name":"zhw",
+      "words":"陪你一路风光，明年再见！",
+      "type":"魅族17pro摄影"
+    }
   ]
 }

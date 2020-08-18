@@ -1,0 +1,81 @@
+body {
+  background-color: #effdfd; }
+
+.wrap {
+  width: 100%;
+  background-color: #fff; }
+
+.header {
+  width: 1240px;
+  margin: 0 auto;
+  height: 70px;
+  background-color: #fff; }
+  .header img {
+    float: left;
+    width: 110px;
+    height: 20px;
+    overflow: hidden;
+    margin-top: 25px; }
+
+.content {
+  width: 1240px;
+  margin: 0 auto; }
+  .content .login {
+    position: relative; }
+    .content .login .flyme {
+      position: absolute;
+      left: 300px;
+      top: 400px; }
+    .content .login .register {
+      position: absolute;
+      width: 366px;
+      height: 375px;
+      left: 712px;
+      top: 210px;
+      background-color: #fff; }
+    .content .login h1 {
+      margin-top: 40px;
+      line-height: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center; }
+    .content .login .ipt {
+      margin-top: 45px;
+      margin-left: 38px;
+      width: 296px;
+      height: 48px;
+      border: 1px solid #909090;
+      font-size: 18px;
+      color: #909090;
+      text-indent: 8px; }
+    .content .login .pass {
+      margin-top: 45px;
+      margin-left: 38px;
+      width: 296px;
+      height: 48px;
+      border: 1px solid #909090;
+      font-size: 18px;
+      color: #909090;
+      text-indent: 8px; }
+    .content .login .remember {
+      margin-top: 30px;
+      margin-left: 38px;
+      font-size: 16px; }
+      .content .login .remember .auto {
+        width: 17px;
+        height: 17px;
+        border: 1px solid #909090;
+        margin-right: 5px; }
+    .content .login button {
+      width: 300px;
+      text-align: center;
+      background-color: #387aff;
+      height: 46px;
+      font-size: 14px;
+      line-height: 36px;
+      cursor: pointer;
+      outline: none;
+      margin-top: 10px;
+      color: #fff;
+      border-radius: 4px;
+      margin-left: 37px; }

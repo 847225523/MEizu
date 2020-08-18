@@ -1,35 +1,136 @@
 {
     "phoneList":[
         {
-          "product_id":"17pro",
-            "title":"魅族 17 Pro",
+          "code":"17",
+            "bigImg":"https://openfile.meizu.com/group1/M00/08/10/Cgbj0F8jhN2ASUlQAAheUlG1H9k034.png680x680.jpg",
             "desc":"mSmart 5G 快省稳系统方案 | 高通骁龙 865 + UFS 3.1 + LPDDR5 | 6400W 全场景 AR 专业影像系统  27W 无线超充 + 4500mAh 超大电池",
-            "price":"4299",
-             "imgs":["./images/17pro_1.jpg","./images/17pro_2.jpg","./images/17pro_3.jpg"],
-            
-             "btns":["./images/blackbtn.png","./images/whitebtn.png","./images/tianqingbtn.png"]
-          
-        },
-        {   
-          "product_id":"17",
-            "title":"魅族 17",
-            "desc":"【6月1日当天 限时享12期分期免息】mSmart 5G 快省稳系统方案  |  高通骁龙 865 + UFS 3.1 高速闪存  |  6400W 全场景影像系统 定制三星 Super AMOLED 90 帧直屏  |  4500mAh 超大电池",
             "price":"3699",
-             "imgs":["./images/17_1.jpg","../images/17_2.jpg","./images/17_3.jpg"],
-            
-             "btns":["./images/tianqingbtn.png","./images/blackbtn.png","./images/greybtn.png"]
-          
+            "youhui":"满3699减100",
+             "imgs":["https://openfile.meizu.com/group1/M00/08/10/Cgbj0F8jhN2ASUlQAAheUlG1H9k034.png120x120.jpg",
+              "https://openfile.meizu.com/group1/M00/08/25/Cgbj0V8jhJqAVw5nAAaR-5glxsI997.png120x120.jpg",
+              "https://openfile.meizu.com/group1/M00/08/10/Cgbj0F8jhJuAahvsAAY2cO3Nvxk844.png120x120.jpg",
+              "https://openfile.meizu.com/group1/M00/08/25/Cgbj0V8jhKKAW0CjAAKx9-Jp2jo765.png120x120.jpg"],
+              "title":"魅族17",
+              "title1":"【限时领券立省100】【购魅族17赠全新壳膜套装】【老用户专享18个月超长延保】【学生购机享精美礼品】高通骁龙 865 + UFS 3.1 高速闪存",
+             "type":["魅族17","魅族17pro","17pro老用户专享","魅族17老用户专享"],
+             "colors":["松浅入墨","十七度灰","AG原野绿","AG星空灰"],
+             "food":["官方标配","EP3c套餐","碎屏保套餐"],
+             "save":["省40元","省50元"],
+             "huabei":[
+              {
+              "money":"¥1465.96×3期",
+              "time":"含手续费 ￥32.96/期"
+               },
+               {
+                  "money":"¥748.74×6期",
+                  "time":"含手续费 ￥32.24/期"
+              },
+              {
+                  "money":"¥385.11×12期",
+                  "time":"含手续费 ￥26.86/期"
+                }
+
+          ],
+          "huabei1":[
+            {
+            "money":"¥1602.96×3期",
+            "time":"含手续费 ￥32.96/期"
+             },
+             {
+                "money":"¥818.74×6期",
+                "time":"含手续费 ￥32.24/期"
+            },
+            {
+                "money":"¥420.11×12期",
+                "time":"含手续费 ￥26.86/期"
+              }
+
+        ],
+        "huabei2":[
+          {
+          "money":"¥1602.96×3期",
+          "time":"含手续费 ￥32.96/期"
+           },
+           {
+              "money":"¥818.74×6期",
+              "time":"含手续费 ￥32.24/期"
+          },
+          {
+              "money":"¥420.11×12期",
+              "time":"含手续费 ￥26.86/期"
+            }
+
+      ],
+          "bigImgs":["https://openfile.meizu.com/group1/M00/08/10/Cgbj0F8jhN2ASUlQAAheUlG1H9k034.png680x680.jpg",
+          "https://openfile.meizu.com/group1/M00/08/25/Cgbj0V8jhJqAVw5nAAaR-5glxsI997.png680x680.jpg",
+          "https://openfile.meizu.com/group1/M00/08/10/Cgbj0F8jhJuAahvsAAY2cO3Nvxk844.png680x680.jpg",
+          "https://openfile.meizu.com/group1/M00/08/25/Cgbj0V8jhKKAW0CjAAKx9-Jp2jo765.png120x120.jpg"
+          ]
         },
         {
-          "product_id":"17pro-dc",
-          "title":"魅族 17 Pro 晓芳窑艺术典藏版",
-          "desc":"这艺术 科技极了",
-          "price":"9999",
-           "imgs":["./images/17pro_dc.jpg"],
-          
-           "btns":["./images/tianqingbtn.png"]
-        
-      },
+          "code":"17pro",
+            "bigImg":"https://openfile.meizu.com/group1/M00/07/F5/Cgbj0F7gsj-AVId0AAlijs1xSzg392.png680x680.jpg",
+            "desc":"mSmart 5G 快省稳系统方案 | 高通骁龙 865 + UFS 3.1 + LPDDR5 | 6400W 全场景 AR 专业影像系统  27W 无线超充 + 4500mAh 超大电池",
+            "price":"4699",
+            "youhui":"满3699减100",
+             "imgs":["https://openfile.meizu.com/group1/M00/07/F5/Cgbj0F7gsj-AVId0AAlijs1xSzg392.png120x120.jpg",
+              "https://openfile.meizu.com/group1/M00/07/DB/Cgbj0V6zwUGADdDwAAT5skEF4T8624.png120x120.jpg",
+              "https://openfile.meizu.com/group1/M00/07/DB/Cgbj0V6zwUeAI-ILAAZB-PVLrto860.png120x120.jpg",
+              "https://openfile.meizu.com/group1/M00/07/C5/Cgbj0F6zwUGADLiyAAKpUJfaPFA649.png120x120.jpg"],
+              "title":"魅族 17 Pro",
+              "title1":"【限时领券至高立省300】【购17Pro赠全新壳膜套装】【老用户专享 18个月超长保修】【学生购机享精美礼品】高通骁龙 865 + UFS 3.1 + LPDDR5 | 6400W 全场景 AR 专业影像系统",
+             "type":["魅族17pro","魅族17","17pro老用户专享","魅族17老用户专享"],
+             "colors":["乌金","定白","天青","月白天青"],
+             "food":["官方标配","无线充套餐","碎屏保套餐"],
+             "save":["省40元","省50元"],
+             "huabei":[
+              {
+              "money":"¥1602.96×3期",
+              "time":"含手续费 ￥32.96/期"
+               },
+               {
+                  "money":"¥818.74×6期",
+                  "time":"含手续费 ￥32.24/期"
+              },
+              {
+                  "money":"¥420.11×12期",
+                  "time":"含手续费 ￥26.86/期"
+                }
+
+          ]
+        },
+        {
+          "code":"17pro-dz",
+            "bigImg":"https://openfile.meizu.com/group1/M00/07/F5/Cgbj0F7gskGAT8SdAAi5TCCOE2Y178.png680x680.jpg",
+            "desc":"【限时领券至高立省300】【购17Pro赠全新壳膜套装】【老用户专享 18个月超长保修】5G旗舰 | 高通骁龙 865 + UFS 3.1 + LPDDR5",
+            "price":"4699",
+            "youhui":"满4299减300",
+             "imgs":["https://openfile.meizu.com/group1/M00/07/F5/Cgbj0F7gskGAT8SdAAi5TCCOE2Y178.png120x120.jpg",
+              "https://openfile.meizu.com/group1/M00/07/DB/Cgbj0V6zwU2ABpNtAAKi3BlPF4A270.png120x120.jpg",
+              "https://openfile.meizu.com/group1/M00/07/DB/Cgbj0V6zwVOAYv3TAAYSY_fifOs397.png120x120.jpg",
+              "https://openfile.meizu.com/group1/M00/07/C5/Cgbj0F6zwU-AE3JwAAJ3w5UUqH4853.png120x120.jpg"],
+              "title":"【老用户专享】魅族 17 Pro",
+              "title1":"【限时领券立省100】【购魅族17赠全新壳膜套装】【老用户专享18个月超长延保】【学生购机享精美礼品】高通骁龙 865 + UFS 3.1 高速闪存",
+             "type":["魅族17老用户专享","魅族17","17pro","魅族17老用户专享"],
+             "colors":["松浅入墨","十七度灰","AG原野绿","AG星空灰"],
+             "food":["官方标配","EP3c套餐","碎屏保套餐"],
+             "save":["省40元","省50元"],
+             "huabei":[
+              {
+              "money":"¥1602.96×3期",
+              "time":"含手续费 ￥32.96/期"
+               },
+               {
+                  "money":"¥818.74×6期",
+                  "time":"含手续费 ￥32.24/期"
+              },
+              {
+                  "money":"¥420.11×12期",
+                  "time":"含手续费 ￥26.86/期"
+                }
+
+          ]
+        },
       {
         "product_id":"16T",
         "title":"魅族 16T",

@@ -1,0 +1,196 @@
+{
+    "newPhone":[
+        {
+            "title":"魅族 17",
+            "desc":"【限时领券至高立省200】【购17Pro赠全新壳膜套装】【老用户专享 18个月超长保修】【学生购机享精美礼品】高通骁龙 865 + UFS 3.1 + LPDDR5 | 6400W 全场景 AR 专业影像系统 ",
+            "price":"3699",
+             "img":"../image/meizu17.png",
+             "code":"17"
+        },
+        {
+            "title":"魅族 17 Pro",
+            "desc":"【限时领券立省100】【购魅族17赠全新壳膜套装】【老用户专享18个月超长延保】【学生购机享精美礼品】高通骁龙 865 + UFS 3.1 高速闪存",
+            "price":"4299",
+             "img":"../image/meizu17pro.png",
+             "code":"17pro"
+        },
+        {
+          "title":"魅族 17 Pro 老用户专享",
+          "desc":"这艺术 科技极了",
+          "price":"4299",
+           "img":"../image/meizu17diancang.png",
+           "code":"17pro-dz"
+      },
+         {
+            "title":"魅族 17 航母限定版",
+            "desc":"以梦为舰 热爱起航",
+            "price":"4299",
+             "img":"../image/meizu17_2.png",
+             "code":"17pro-dz"
+        },
+       
+        {
+            "title":"魅族 16T",
+            "desc":"6.5英寸极边全面屏 | 骁龙855旗舰处理器",
+            "price":"1999",
+             "img":"../image/meizu16T.png",
+             "code":"17"
+        },
+        {
+            "title":"魅族 16s",
+            "desc":"高通骁龙855 | 4800W光学防抖 ",
+            "price":"2399",
+             "img":"../image/meizu16s.png",
+             "code":"17"
+        },
+        {
+            "title":"魅族 17",
+            "desc":"【限时领券至高立省200】【购17Pro赠全新壳膜套装】【老用户专享 18个月超长保修】【学生购机享精美礼品】高通骁龙 865 + UFS 3.1 + LPDDR5 | 6400W 全场景 AR 专业影像系统 ",
+            "price":"3699",
+             "img":"../image/meizu17.png",
+             "code":"17"
+        },
+        {
+            "title":"魅族 17 Pro",
+            "desc":"【限时领券立省100】【购魅族17赠全新壳膜套装】【老用户专享18个月超长延保】【学生购机享精美礼品】高通骁龙 865 + UFS 3.1 高速闪存",
+            "price":"4299",
+             "img":"../image/meizu17pro.png",
+             "code":"17"
+        },
+         {
+            "title":"魅族 17 航母限定版",
+            "desc":"以梦为舰 热爱起航",
+            "price":"4299",
+             "img":"../image/meizu17_2.png",
+             "code":"17"
+        },
+        {
+            "title":"魅族 17 Pro 晓芳窑艺术典藏版",
+            "desc":"这艺术 科技极了",
+            "price":"9999",
+             "img":"../image/meizu17diancang.png",
+             "code":"17"
+        },
+        {
+            "title":"魅族 16T",
+            "desc":"6.5英寸极边全面屏 | 骁龙855旗舰处理器",
+            "price":"1999",
+             "img":"../image/meizu16T.png",
+             "code":"17"
+        },
+        {
+            "title":"魅族 16s",
+            "desc":"高通骁龙855 | 4800W光学防抖 ",
+            "price":"2399",
+             "img":"../image/meizu16s.png",
+             "code":"17"
+        }
+    ],
+    "ears":[{
+        "img":"../image/navear1.jpg",
+       "title":"【新品】魅族HD60耳机",
+       "price":"￥1098"  ,
+       "desc":"高通骁龙855 | 4800W光学防抖 ",
+       "code":"17"
+      },
+      {
+        "img":"../image/navear2.jpg",
+       "title":"魅族头戴式耳机",
+       "price":"￥499"   ,
+       "desc":"高通骁龙855 | 4800W光学防抖 ",
+       "code":"17"
+      },   {
+        "img":"../image/navear3.jpg",
+       "title":"魅族真无线蓝牙耳机",
+       "price":"￥399"  ,
+       "desc":"高通骁龙855 | 4800W光学防抖 ",
+       "code":"17"
+      },
+      {
+        "img":"../image/navear4.jpg",
+       "title":"魅族解码耳放",
+       "price":"￥169  " ,
+       "desc":"高通骁龙855 | 4800W光学防抖 ",
+       "code":"17"
+      },
+      {
+        "img":"../image/navear5.jpg",
+       "title":"魅族EP3C耳机",
+       "price":"￥129"  ,
+       "desc":"高通骁龙855 | 4800W光学防抖 ",
+       "code":"17"
+      },
+      {
+        "img":"../image/navear6.jpg",
+       "title":"魅族无线降噪耳机",
+       "price":"￥399"   , 
+       "desc":"高通骁龙855 | 4800W光学防抖 ",
+       "code":"17"
+      },
+      {
+        "img":"../image/navear7.jpg",
+       "title":"魅族解码耳放pro",
+       "price":"￥299"  ,
+       "desc":"高通骁龙855 | 4800W光学防抖 ",
+       "code":"17"
+      },
+      {
+        "img":"../image/navear8.jpg",
+       "title":"高端定制耳机",
+       "price":"￥299",
+       "desc":"高通骁龙855 | 4800W光学防抖 ",
+       "code":"17"
+      }
+    ],
+    "parts":[{
+        "img":"../image/navfitting1.jpg",
+       "title":"新品魅族无线超充板",
+       "price":"￥169",
+       "desc":"充电是真快值得大家购买",
+       "code":"17"
+      },
+      {
+        "img":"../image/navfitting2.jpg",
+       "title":"Pandae17系列手机壳",
+       "price":"￥49" ,
+       "desc":"充电是真快值得大家购买",
+       "code":"17"
+      },
+      {
+        "img":"../image/navfitting3.jpg",
+       "title":"魅族17液态硅胶壳",
+       "price":"￥89 ",
+       "desc":"充电是真快值得大家购买",
+       "code":"17"
+      },
+      {
+        "img":"../image/navfitting4.jpg",
+       "title":"魅族超充USB-C移动电源",
+       "price":"￥169"  ,
+       "desc":"充电是真快值得大家购买" ,
+       "code":"17"
+      },
+      {
+        "img":"../image/navfitting5.jpg",
+       "title":"魅族超充 GaN 三口充电器",
+       "price":"￥199" ,
+       "desc":"充电是真快值得大家购买", 
+       "code":"17" 
+      },
+     
+      {
+        "img":"../image/navfitting7.jpg",
+       "title":"魅族中国红 ",
+       "price":"￥39"  ,
+       "desc":"充电是真快值得大家购买" ,
+       "code":"17"
+      },
+      {
+        "img":"../image/navfitting8.jpg",
+       "title":"魅族 Type-C 游戏专用线",
+       "price":"￥49" ,
+       "desc":"充电是真快值得大家购买",
+       "code":"17"
+      }
+   ]
+    }

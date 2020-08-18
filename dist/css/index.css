@@ -1,10 +1,12 @@
-body {
-  background-color: #f4f4f4; }
+html, body {
+  background-color: #f4f4f4;
+  width: 100%; }
 
 .wrap {
   position: relative;
   width: 100%;
-  height: 680px; }
+  height: 680px;
+  overflow: hidden; }
   .wrap .nav {
     width: 1240px;
     height: 80px;
@@ -62,7 +64,27 @@ body {
       float: left;
       margin-left: 30px;
       margin-top: 28px;
-      margin-right: 20px; }
+      margin-right: 20px;
+      position: relative; }
+      .wrap .nav .login ul {
+        position: absolute;
+        padding-top: 8px;
+        left: -30px;
+        top: 32px;
+        width: 97px;
+        height: 60px;
+        background-color: #ffffff;
+        display: none; }
+        .wrap .nav .login ul li {
+          height: 30px;
+          line-height: 30px;
+          text-align: center; }
+          .wrap .nav .login ul li a {
+            color: #333; }
+          .wrap .nav .login ul li a:hover {
+            color: #c00; }
+        .wrap .nav .login ul li:hover {
+          background-color: #f4f4f4; }
     .wrap .nav .shopping {
       float: left;
       margin-top: 28px; }
@@ -260,15 +282,17 @@ body {
         color: #c00;
         line-height: 21px;
         height: 21px;
-        text-align: center; }
+        text-align: center;
+        font-style: normal; }
       .new div span em {
         font-size: 22px;
         color: #c00;
         height: 33px;
         line-height: 33px;
-        text-align: center; }
+        text-align: center;
+        font-style: normal; }
 
-.new .Meizu17 {
+.new div:nth-child(2n) {
   margin-right: 0; }
 
 .detail {
@@ -306,13 +330,15 @@ body {
       color: #c00;
       line-height: 21px;
       height: 21px;
-      text-align: center; }
+      text-align: center;
+      font-style: normal; }
     .detail li span em {
       font-size: 22px;
       color: #c00;
       height: 33px;
       line-height: 33px;
-      text-align: center; }
+      text-align: center;
+      font-style: normal; }
 
 ul li:nth-child(4) {
   margin-right: 0; }
@@ -344,17 +370,19 @@ ul li:nth-child(4) {
         border-radius: 50%;
         float: left;
         box-shadow: 1px 1px 1px 1px #eee; }
-      .community div p span {
+      .community div p .community-one {
         margin-left: 15px;
         text-align: left; }
     .community div i {
+      display: block;
       padding: 10px 15px 15px;
       font-size: 16px;
       line-height: 27px;
       text-align: left;
       height: 66px;
-      overflow: hidden; }
-    .community div span {
+      overflow: hidden;
+      font-style: normal; }
+    .community div .community-two {
       color: #999;
       display: block;
       padding: 0 15px;
@@ -370,12 +398,13 @@ ul li:nth-child(4) {
   .footer .footerContent {
     width: 1240px;
     height: 178px;
-    background-color: skyblue;
+    position: relative;
     margin: 0 auto;
     padding: 48px 0 20px;
     border-top: 1px solid #f1f1f1; }
     .footer .footerContent .footerContentone {
       position: relative;
+      padding-bottom: 20px;
       border-bottom: 1px solid #ccc;
       overflow: hidden; }
       .footer .footerContent .footerContentone a {
@@ -425,7 +454,7 @@ ul li:nth-child(4) {
           font-size: 14px;
           background: #008cff; }
     .footer .footerContent .footerContenttwo {
-      padding-top: 20px; }
+      padding-top: 30px; }
       .footer .footerContent .footerContenttwo ul {
         overflow: hidden; }
         .footer .footerContent .footerContenttwo ul li {
@@ -438,5 +467,50 @@ ul li:nth-child(4) {
             display: block;
             line-height: 18px;
             color: #999; }
+            .footer .footerContent .footerContenttwo ul li a:hover {
+              color: #008cff; }
         .footer .footerContent .footerContenttwo ul .borderNo {
           border: none; }
+      .footer .footerContent .footerContenttwo p {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #999;
+        float: left;
+        position: relative; }
+        .footer .footerContent .footerContenttwo p a {
+          color: #999; }
+          .footer .footerContent .footerContenttwo p a:hover {
+            color: #008cff; }
+        .footer .footerContent .footerContenttwo p .one {
+          position: absolute;
+          right: -30px; }
+        .footer .footerContent .footerContenttwo p .two {
+          position: absolute;
+          right: -55px; }
+        .footer .footerContent .footerContenttwo p .three {
+          position: absolute;
+          right: -80px; }
+        .footer .footerContent .footerContenttwo p i {
+          position: absolute;
+          right: -365px;
+          font-style: normal; }
+          .footer .footerContent .footerContenttwo p i em {
+            float: left;
+            font-style: normal;
+            margin: 0 5px; }
+    .footer .footerContent .subscribe {
+      position: absolute;
+      top: 20px;
+      right: 0px;
+      display: none; }
+      .footer .footerContent .subscribe img {
+        width: 160px;
+        height: 160px; }
+    .footer .footerContent .weChat {
+      position: absolute;
+      top: 20px;
+      right: 0px;
+      display: none; }
+      .footer .footerContent .weChat img {
+        width: 160px;
+        height: 160px; }
