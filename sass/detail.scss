@@ -463,6 +463,7 @@ body{
                      float: left;
                      padding-left: 63px;
                      margin-top: -28px;
+                     
                      span{
                          float: left;
                          display:block;
@@ -478,11 +479,14 @@ body{
                     text-decoration: none;
                     font-size: 14px;
                     min-height: 41px;
-                    // border-color: #000;
+                    //
                     // color: #000;
                      }
+                 .border1{
+                    border: 1px solid #000;
                  }
              }
+            }
              .netCom{
                  margin-top: 8px;
                  span:nth-child(1){

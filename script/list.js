@@ -277,10 +277,10 @@ spans[0].onclick=function(){
     <em>${item.price}</em>
   </span>
   <ul>
-  <li  class="circle">1</li>
-  <li >2</li>
-  <li >3</li>
-  <li >4</li>
+  <li  class="circle" code="https://openfile.meizu.com/group1/M00/07/C5/Cgbj0F6zwVaAfvCAAAlIjzPtsZc201.png@480x480.jpg">1</li>
+  <li  code="https://openfile.meizu.com/group1/M00/07/C5/Cgbj0F6zwUCAZXioAAqyPRV4XK4045.png@480x480.jpg">2</li>
+  <li code="https://openfile.meizu.com/group1/M00/07/C5/Cgbj0F6zwUqAdPsoAAtCAjTT7ek670.png@480x480.jpg">3</li>
+  <li  code="https://openfile.meizu.com/group1/M00/07/C4/Cgbj0F6zwMuANEeWAAw6yQFAJXM097.png@480x480.jpg">4</li>
   </ul>
 </div>`
 $('.detailsphone').append(phoneDom);
@@ -298,9 +298,11 @@ $('.login').mouseleave(function(){
 })
 
 //点击圆点切换图片
+
 $('.detailsphone ').on('click','.detailsphone div ul li',function(e){
   var e=e||event;
   if(e.target.tagName==='LI'){
+    e.preventDefault();
     console.log(111);
   }
 })

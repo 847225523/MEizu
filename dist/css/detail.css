@@ -385,6 +385,8 @@ body {
             text-decoration: none;
             font-size: 14px;
             min-height: 41px; }
+          .details-one .details .detailMessage .type .typeTwo .border1 {
+            border: 1px solid #000; }
       .details-one .details .detailMessage .netCom {
         margin-top: 8px; }
         .details-one .details .detailMessage .netCom span:nth-child(1) {
