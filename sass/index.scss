@@ -279,9 +279,11 @@ html,body{
 .summer{
     position: relative;
     height: 450px;
+    width: 100%;
+    min-width: 1240px;
     img{
         position: absolute;
-        width: auto;
+        width: 100%;
         height: auto;
         left: 50%;
         top: 225px;

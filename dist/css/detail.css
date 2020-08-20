@@ -145,10 +145,11 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.8;
   border-bottom: 1px solid #dedede;
   z-index: 9999;
-  display: none; }
+  display: block;
+  background-color: #f4f4f4; }
   .fix .title {
     width: 1240px;
     height: 70px;
