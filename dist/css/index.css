@@ -245,6 +245,8 @@ html, body {
     float: left;
     margin-right: 10px;
     position: relative; }
+    .new div:hover {
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); }
     .new div h5 {
       position: absolute;
       background-color: #c00;
@@ -311,6 +313,8 @@ html, body {
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: 50%; }
+    .detail li:hover {
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); }
     .detail li h3 {
       color: #333;
       font-size: 16px;
@@ -356,6 +360,8 @@ ul li:nth-child(4) {
     margin-bottom: 9px;
     float: left;
     background-color: #fff; }
+    .community div:hover {
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); }
     .community div img {
       width: 303px;
       height: 190px; }
